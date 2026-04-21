@@ -20,7 +20,13 @@ import {
 } from "@/lib/persistence";
 import { formatEnglishGloss, hasExampleSentence } from "@/lib/cardGloss";
 import { displayExpectedAnswers } from "@/lib/displayExpected";
-import type { KanjiSubMode, PackCard, PackManifest, Script } from "@/types/pack";
+import type {
+  KanjiSubMode,
+  PackCard,
+  PackManifest,
+  PackManifestEntry,
+  Script,
+} from "@/types/pack";
 import {
   buildSessionSnapshot,
   quizRunReducer,
@@ -37,6 +43,28 @@ const SCRIPT_LABEL: Record<Script, string> = {
   katakana: "Katakana",
   kanji: "Kanji",
 };
+
+function sortedPacksForScript(
+  manifest: PackManifest,
+  script: Script,
+): PackManifestEntry[] {
+  return manifest.packs
+    .filter((p) => p.script === script)
+    .slice()
+    .sort((a, b) =>
+      a.title.localeCompare(b.title, undefined, { numeric: true, sensitivity: "base" }),
+    );
+}
+
+function pickPackIdForScript(
+  manifest: PackManifest,
+  script: Script,
+  previousId: string,
+): string {
+  const list = sortedPacksForScript(manifest, script);
+  if (list.some((p) => p.id === previousId)) return previousId;
+  return list[0]?.id ?? "";
+}
 
 export function App() {
   const [manifest, setManifest] = useState<PackManifest | null>(null);
@@ -78,20 +106,22 @@ export function App() {
     };
   }, []);
 
+  const handleScriptChange = useCallback(
+    (next: Script) => {
+      setScript(next);
+      if (manifest) {
+        setPackId((prev) => pickPackIdForScript(manifest, next, prev));
+      } else {
+        setPackId("");
+      }
+    },
+    [manifest],
+  );
+
   useEffect(() => {
     if (!manifest) return;
-    const packsForScript = manifest.packs
-      .filter((p) => p.script === script)
-      .slice()
-      .sort((a, b) =>
-        a.title.localeCompare(b.title, undefined, { numeric: true, sensitivity: "base" }),
-      );
-    setPackId((current) =>
-      packsForScript.some((p) => p.id === current)
-        ? current
-        : (packsForScript[0]?.id ?? ""),
-    );
-  }, [manifest, script]);
+    setPackId((current) => pickPackIdForScript(manifest, script, current));
+  }, [manifest]); // script: read when manifest becomes available (initial reconcile)
 
   useEffect(() => {
     const settings: QuizSettings = {
@@ -183,7 +213,7 @@ export function App() {
         <section aria-label="Quiz setup">
           <ModePicker
             script={script}
-            onScript={setScript}
+            onScript={handleScriptChange}
             kanjiSubMode={kanjiSubMode}
             onKanjiSubMode={setKanjiSubMode}
             disabled={run.status === "loading"}
