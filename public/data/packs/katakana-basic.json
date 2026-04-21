@@ -1,0 +1,168 @@
+{
+  "id": "katakana-basic",
+  "title": "Katakana — loanwords & things",
+  "revision": 3,
+  "script": "katakana",
+  "cards": [
+    {
+      "id": "k-koohii",
+      "prompt": "コーヒー",
+      "readingsRomaji": ["koohii", "kohi"],
+      "meaningsEn": ["coffee"],
+      "exampleJa": "朝はコーヒーを飲みます。",
+      "exampleEn": "I drink coffee in the morning."
+    },
+    {
+      "id": "k-terebi",
+      "prompt": "テレビ",
+      "readingsRomaji": ["terebi"],
+      "meaningsEn": ["TV", "television"],
+      "exampleJa": "テレビを見すぎないでください。",
+      "exampleEn": "Please don't watch too much TV."
+    },
+    {
+      "id": "k-pan",
+      "prompt": "パン",
+      "readingsRomaji": ["pan"],
+      "meaningsEn": ["bread"],
+      "exampleJa": "パンを一枚買いました。",
+      "exampleEn": "I bought one slice of bread."
+    },
+    {
+      "id": "k-sumaho",
+      "prompt": "スマホ",
+      "readingsRomaji": ["sumaho", "sumafon"],
+      "meaningsEn": ["smartphone"],
+      "exampleJa": "スマホの電池が切れました。",
+      "exampleEn": "My smartphone battery died."
+    },
+    {
+      "id": "k-keeki",
+      "prompt": "ケーキ",
+      "readingsRomaji": ["keeki", "keki"],
+      "meaningsEn": ["cake"],
+      "exampleJa": "誕生日にケーキを食べました。",
+      "exampleEn": "I ate cake on my birthday."
+    },
+    {
+      "id": "k-basu",
+      "prompt": "バス",
+      "readingsRomaji": ["basu"],
+      "meaningsEn": ["bus"],
+      "exampleJa": "バスで学校へ行きます。",
+      "exampleEn": "I go to school by bus."
+    },
+    {
+      "id": "k-takushii",
+      "prompt": "タクシー",
+      "readingsRomaji": ["takushii", "takushi"],
+      "meaningsEn": ["taxi"],
+      "exampleJa": "遅刻しそうなのでタクシーに乗りました。",
+      "exampleEn": "I took a taxi because I was almost late."
+    },
+    {
+      "id": "k-konbini",
+      "prompt": "コンビニ",
+      "readingsRomaji": ["konbini"],
+      "meaningsEn": ["convenience store"],
+      "exampleJa": "コンビニでお弁当を買いました。",
+      "exampleEn": "I bought a boxed lunch at the convenience store."
+    },
+    {
+      "id": "k-resutoran",
+      "prompt": "レストラン",
+      "readingsRomaji": ["resutoran"],
+      "meaningsEn": ["restaurant"],
+      "exampleJa": "レストランを予約しました。",
+      "exampleEn": "I reserved a restaurant."
+    },
+    {
+      "id": "k-nooto",
+      "prompt": "ノート",
+      "readingsRomaji": ["nooto", "noto"],
+      "meaningsEn": ["notebook"],
+      "exampleJa": "ノートにメモを書きます。",
+      "exampleEn": "I'll write a memo in my notebook."
+    },
+    {
+      "id": "k-pen",
+      "prompt": "ペン",
+      "readingsRomaji": ["pen"],
+      "meaningsEn": ["pen"],
+      "exampleJa": "ペンを貸してください。",
+      "exampleEn": "Please lend me a pen."
+    },
+    {
+      "id": "k-doa",
+      "prompt": "ドア",
+      "readingsRomaji": ["doa"],
+      "meaningsEn": ["door"],
+      "exampleJa": "ドアを閉めてください。",
+      "exampleEn": "Please close the door."
+    },
+    {
+      "id": "k-miruku",
+      "prompt": "ミルク",
+      "readingsRomaji": ["miruku"],
+      "meaningsEn": ["milk"],
+      "exampleJa": "コーヒーにミルクを入れます。",
+      "exampleEn": "I put milk in my coffee."
+    },
+    {
+      "id": "k-juusu",
+      "prompt": "ジュース",
+      "readingsRomaji": ["juusu", "jusu"],
+      "meaningsEn": ["juice"],
+      "exampleJa": "オレンジジュースが好きです。",
+      "exampleEn": "I like orange juice."
+    },
+    {
+      "id": "k-aisu",
+      "prompt": "アイス",
+      "readingsRomaji": ["aisu"],
+      "meaningsEn": ["ice cream"],
+      "exampleJa": "夏はアイスが食べたいです。",
+      "exampleEn": "In summer I want to eat ice cream."
+    },
+    {
+      "id": "k-piza",
+      "prompt": "ピザ",
+      "readingsRomaji": ["piza"],
+      "meaningsEn": ["pizza"],
+      "exampleJa": "今夜はピザにしよう。",
+      "exampleEn": "Let's have pizza tonight."
+    },
+    {
+      "id": "k-hoteru",
+      "prompt": "ホテル",
+      "readingsRomaji": ["hoteru"],
+      "meaningsEn": ["hotel"],
+      "exampleJa": "ホテルをオンラインで予約しました。",
+      "exampleEn": "I booked a hotel online."
+    },
+    {
+      "id": "k-kurasu",
+      "prompt": "クラス",
+      "readingsRomaji": ["kurasu"],
+      "meaningsEn": ["class"],
+      "exampleJa": "クラスの友達と話しました。",
+      "exampleEn": "I talked with a classmate."
+    },
+    {
+      "id": "k-rajio",
+      "prompt": "ラジオ",
+      "readingsRomaji": ["rajio"],
+      "meaningsEn": ["radio"],
+      "exampleJa": "ラジオでニュースを聞きます。",
+      "exampleEn": "I listen to the news on the radio."
+    },
+    {
+      "id": "k-pasokon",
+      "prompt": "パソコン",
+      "readingsRomaji": ["pasokon"],
+      "meaningsEn": ["PC", "computer"],
+      "exampleJa": "パソコンでレポートを書きます。",
+      "exampleEn": "I write my report on the computer."
+    }
+  ]
+}

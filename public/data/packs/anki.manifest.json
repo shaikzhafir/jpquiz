@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "packs": [
+    {
+      "id": "core2000-katakana-0001",
+      "title": "Anki: Core 2000 — katakana · part 1/1",
+      "script": "katakana",
+      "groupId": "core2000",
+      "groupTitle": "Core 2000 (Anki)"
+    },
+    {
+      "id": "core2000-hiragana-0001",
+      "title": "Anki: Core 2000 — hiragana · part 1/5",
+      "script": "hiragana",
+      "groupId": "core2000",
+      "groupTitle": "Core 2000 (Anki)"
+    },
+    {
+      "id": "core2000-hiragana-0002",
+      "title": "Anki: Core 2000 — hiragana · part 2/5",
+      "script": "hiragana",
+      "groupId": "core2000",
+      "groupTitle": "Core 2000 (Anki)"
+    },
+    {
+      "id": "core2000-hiragana-0003",
+      "title": "Anki: Core 2000 — hiragana · part 3/5",
+      "script": "hiragana",
+      "groupId": "core2000",
+      "groupTitle": "Core 2000 (Anki)"
+    },
+    {
+      "id": "core2000-hiragana-0004",
+      "title": "Anki: Core 2000 — hiragana · part 4/5",
+      "script": "hiragana",
+      "groupId": "core2000",
+      "groupTitle": "Core 2000 (Anki)"
+    },
+    {
+      "id": "core2000-hiragana-0005",
+      "title": "Anki: Core 2000 — hiragana · part 5/5",
+      "script": "hiragana",
+      "groupId": "core2000",
+      "groupTitle": "Core 2000 (Anki)"
+    },
+    {
+      "id": "core2000-kanji-0001",
+      "title": "Anki: Core 2000 — kanji · part 1/10",
+      "script": "kanji",
+      "groupId": "core2000",
+      "groupTitle": "Core 2000 (Anki)"
+    },
+    {
+      "id": "core2000-kanji-0002",
+      "title": "Anki: Core 2000 — kanji · part 2/10",
+      "script": "kanji",
+      "groupId": "core2000",
+      "groupTitle": "Core 2000 (Anki)"
+    },
+    {
+      "id": "core2000-kanji-0003",
+      "title": "Anki: Core 2000 — kanji · part 3/10",
+      "script": "kanji",
+      "groupId": "core2000",
+      "groupTitle": "Core 2000 (Anki)"
+    },
+    {
+      "id": "core2000-kanji-0004",
+      "title": "Anki: Core 2000 — kanji · part 4/10",
+      "script": "kanji",
+      "groupId": "core2000",
+      "groupTitle": "Core 2000 (Anki)"
+    },
+    {
+      "id": "core2000-kanji-0005",
+      "title": "Anki: Core 2000 — kanji · part 5/10",
+      "script": "kanji",
+      "groupId": "core2000",
+      "groupTitle": "Core 2000 (Anki)"
+    },
+    {
+      "id": "core2000-kanji-0006",
+      "title": "Anki: Core 2000 — kanji · part 6/10",
+      "script": "kanji",
+      "groupId": "core2000",
+      "groupTitle": "Core 2000 (Anki)"
+    },
+    {
+      "id": "core2000-kanji-0007",
+      "title": "Anki: Core 2000 — kanji · part 7/10",
+      "script": "kanji",
+      "groupId": "core2000",
+      "groupTitle": "Core 2000 (Anki)"
+    },
+    {
+      "id": "core2000-kanji-0008",
+      "title": "Anki: Core 2000 — kanji · part 8/10",
+      "script": "kanji",
+      "groupId": "core2000",
+      "groupTitle": "Core 2000 (Anki)"
+    },
+    {
+      "id": "core2000-kanji-0009",
+      "title": "Anki: Core 2000 — kanji · part 9/10",
+      "script": "kanji",
+      "groupId": "core2000",
+      "groupTitle": "Core 2000 (Anki)"
+    },
+    {
+      "id": "core2000-kanji-0010",
+      "title": "Anki: Core 2000 — kanji · part 10/10",
+      "script": "kanji",
+      "groupId": "core2000",
+      "groupTitle": "Core 2000 (Anki)"
+    }
+  ]
+}

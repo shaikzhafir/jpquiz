@@ -1,0 +1,6 @@
+# Cloudflare Pages (static Vite output)
+# Dashboard: build command `npm run build`, output directory `dist`
+# CLI: npm run build && npx wrangler pages deploy ./dist --project-name=<your-project>
+name = "jpquiz"
+compatibility_date = "2025-04-01"
+pages_build_output_dir = "dist"

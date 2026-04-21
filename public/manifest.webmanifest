@@ -1,0 +1,14 @@
+{
+  "name": "JP Quiz",
+  "short_name": "JP Quiz",
+  "description": "Quiet hiragana, katakana, and kanji drills for commute study.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f5efe3",
+  "theme_color": "#f5efe3",
+  "icons": [
+    { "src": "/favicon.svg", "type": "image/svg+xml", "sizes": "any", "purpose": "any" }
+  ]
+}

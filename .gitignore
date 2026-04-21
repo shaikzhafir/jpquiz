@@ -1,0 +1,14 @@
+node_modules
+dist
+dist-ssr
+*.local
+.DS_Store
+.wrangler
+
+# Local dictionary dump (huge; keep out of git)
+JMdict_e
+*.apkg
+
+# Generated from JMdict_e (see npm run convert:jmdict)
+public/data/packs/jmdict-*.json
+public/data/packs/jmdict.manifest.json

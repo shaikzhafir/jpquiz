@@ -1,0 +1,30 @@
+{
+  "name": "jpquiz",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "pages:dev": "wrangler pages dev ./dist",
+    "pages:deploy": "wrangler pages deploy ./dist",
+    "convert:apkg": "node scripts/convert-apkg.mjs"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "wanakana": "^5.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "anki-reader": "^0.3.0",
+    "fflate": "^0.8.2",
+    "sql.js": "^1.14.1",
+    "typescript": "~5.7.2",
+    "vite": "^6.0.5",
+    "wrangler": "^3.99.0"
+  }
+}

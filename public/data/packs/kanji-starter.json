@@ -1,0 +1,120 @@
+{
+  "id": "kanji-starter",
+  "title": "Kanji — short words & phrases",
+  "revision": 3,
+  "script": "kanji",
+  "cards": [
+    {
+      "id": "kj-nihon",
+      "prompt": "日本",
+      "readingsRomaji": ["nihon", "nippon"],
+      "meaningsEn": ["Japan"],
+      "exampleJa": "日本へ旅行したいです。",
+      "exampleEn": "I want to travel to Japan."
+    },
+    {
+      "id": "kj-nihongo",
+      "prompt": "日本語",
+      "readingsRomaji": ["nihongo"],
+      "meaningsEn": ["Japanese language", "Japanese"],
+      "exampleJa": "日本語を勉強しています。",
+      "exampleEn": "I'm studying Japanese."
+    },
+    {
+      "id": "kj-kyou",
+      "prompt": "今日",
+      "readingsRomaji": ["kyou", "kyo"],
+      "meaningsEn": ["today"],
+      "exampleJa": "今日は忙しいです。",
+      "exampleEn": "Today is busy."
+    },
+    {
+      "id": "kj-gakkou",
+      "prompt": "学校",
+      "readingsRomaji": ["gakkou", "gakko"],
+      "meaningsEn": ["school"],
+      "exampleJa": "学校は八時に始まります。",
+      "exampleEn": "School starts at eight."
+    },
+    {
+      "id": "kj-densha",
+      "prompt": "電車",
+      "readingsRomaji": ["densha"],
+      "meaningsEn": ["train"],
+      "exampleJa": "電車で会社へ行きます。",
+      "exampleEn": "I go to work by train."
+    },
+    {
+      "id": "kj-toshokan",
+      "prompt": "図書館",
+      "readingsRomaji": ["toshokan"],
+      "meaningsEn": ["library"],
+      "exampleJa": "図書館で本を借りました。",
+      "exampleEn": "I borrowed a book at the library."
+    },
+    {
+      "id": "kj-tomodachi",
+      "prompt": "友達",
+      "readingsRomaji": ["tomodachi"],
+      "meaningsEn": ["friend"],
+      "exampleJa": "友達と公園を散歩しました。",
+      "exampleEn": "I took a walk in the park with a friend."
+    },
+    {
+      "id": "kj-taberu",
+      "prompt": "食べる",
+      "readingsRomaji": ["taberu"],
+      "meaningsEn": ["to eat", "eat"],
+      "exampleJa": "一緒に寿司を食べましょう。",
+      "exampleEn": "Let's eat sushi together."
+    },
+    {
+      "id": "kj-nomu",
+      "prompt": "飲む",
+      "readingsRomaji": ["nomu"],
+      "meaningsEn": ["to drink", "drink"],
+      "exampleJa": "水をたくさん飲んでください。",
+      "exampleEn": "Please drink plenty of water."
+    },
+    {
+      "id": "kj-miru",
+      "prompt": "見る",
+      "readingsRomaji": ["miru"],
+      "meaningsEn": ["to see", "to watch", "see", "watch"],
+      "exampleJa": "窓の外を見る。",
+      "exampleEn": "Look out the window."
+    },
+    {
+      "id": "kj-iku",
+      "prompt": "行く",
+      "readingsRomaji": ["iku", "yuku"],
+      "meaningsEn": ["to go", "go"],
+      "exampleJa": "駅へ行く途中です。",
+      "exampleEn": "I'm on my way to the station."
+    },
+    {
+      "id": "kj-kuru",
+      "prompt": "来る",
+      "readingsRomaji": ["kuru"],
+      "meaningsEn": ["to come", "come"],
+      "exampleJa": "明日友達が来ます。",
+      "exampleEn": "A friend is coming tomorrow."
+    },
+    {
+      "id": "kj-eki",
+      "prompt": "駅",
+      "readingsRomaji": ["eki"],
+      "meaningsEn": ["station"],
+      "exampleJa": "駅の前で待ち合わせしましょう。",
+      "exampleEn": "Let's meet in front of the station."
+    },
+    {
+      "id": "kj-benkyou",
+      "prompt": "勉強",
+      "readingsRomaji": ["benkyou", "benkyo"],
+      "meaningsEn": ["study", "studying"],
+      "exampleJa": "毎日二時間勉強します。",
+      "exampleEn": "I study for two hours every day."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "packs": [
+    {
+      "id": "hiragana-basic",
+      "title": "Hiragana — common words",
+      "script": "hiragana"
+    },
+    {
+      "id": "katakana-basic",
+      "title": "Katakana — loanwords & things",
+      "script": "katakana"
+    },
+    {
+      "id": "kanji-starter",
+      "title": "Kanji — short words & phrases",
+      "script": "kanji"
+    }
+  ]
+}

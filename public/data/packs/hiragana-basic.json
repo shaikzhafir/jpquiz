@@ -1,0 +1,168 @@
+{
+  "id": "hiragana-basic",
+  "title": "Hiragana — common words",
+  "revision": 3,
+  "script": "hiragana",
+  "cards": [
+    {
+      "id": "h-konnichiwa",
+      "prompt": "こんにちは",
+      "readingsRomaji": ["konnichiwa"],
+      "meaningsEn": ["hello", "good afternoon"],
+      "exampleJa": "こんにちは、田中さん。",
+      "exampleEn": "Hello, Mr. Tanaka."
+    },
+    {
+      "id": "h-arigatou",
+      "prompt": "ありがとう",
+      "readingsRomaji": ["arigatou", "arigato"],
+      "meaningsEn": ["thank you"],
+      "exampleJa": "手伝ってくれてありがとう。",
+      "exampleEn": "Thanks for helping me."
+    },
+    {
+      "id": "h-sumimasen",
+      "prompt": "すみません",
+      "readingsRomaji": ["sumimasen"],
+      "meaningsEn": ["excuse me", "sorry"],
+      "exampleJa": "すみません、ちょっといいですか。",
+      "exampleEn": "Excuse me, do you have a moment?"
+    },
+    {
+      "id": "h-ohayou",
+      "prompt": "おはよう",
+      "readingsRomaji": ["ohayou", "ohayo"],
+      "meaningsEn": ["good morning"],
+      "exampleJa": "おはよう、よく眠れた？",
+      "exampleEn": "Morning—did you sleep well?"
+    },
+    {
+      "id": "h-sayounara",
+      "prompt": "さようなら",
+      "readingsRomaji": ["sayounara", "sayonara"],
+      "meaningsEn": ["goodbye"],
+      "exampleJa": "また明日ね。さようなら。",
+      "exampleEn": "See you tomorrow. Goodbye."
+    },
+    {
+      "id": "h-tabemono",
+      "prompt": "たべもの",
+      "readingsRomaji": ["tabemono"],
+      "meaningsEn": ["food"],
+      "exampleJa": "日本のたべものが好きです。",
+      "exampleEn": "I like Japanese food."
+    },
+    {
+      "id": "h-nomimono",
+      "prompt": "のみもの",
+      "readingsRomaji": ["nomimono"],
+      "meaningsEn": ["drink", "beverage"],
+      "exampleJa": "のみものは何にしますか。",
+      "exampleEn": "What would you like to drink?"
+    },
+    {
+      "id": "h-watashi",
+      "prompt": "わたし",
+      "readingsRomaji": ["watashi"],
+      "meaningsEn": ["I", "me"],
+      "exampleJa": "わたしは学生です。",
+      "exampleEn": "I am a student."
+    },
+    {
+      "id": "h-anata",
+      "prompt": "あなた",
+      "readingsRomaji": ["anata"],
+      "meaningsEn": ["you"],
+      "exampleJa": "あなたの名前は何ですか。",
+      "exampleEn": "What is your name?"
+    },
+    {
+      "id": "h-gakusei",
+      "prompt": "がくせい",
+      "readingsRomaji": ["gakusei"],
+      "meaningsEn": ["student"],
+      "exampleJa": "がくせいは図書館にいます。",
+      "exampleEn": "The students are in the library."
+    },
+    {
+      "id": "h-sensei",
+      "prompt": "せんせい",
+      "readingsRomaji": ["sensei"],
+      "meaningsEn": ["teacher", "doctor", "sensei"],
+      "exampleJa": "せんせい、質問があります。",
+      "exampleEn": "Teacher, I have a question."
+    },
+    {
+      "id": "h-nihon",
+      "prompt": "にほん",
+      "readingsRomaji": ["nihon", "nippon"],
+      "meaningsEn": ["Japan"],
+      "exampleJa": "にほんへ行きたいです。",
+      "exampleEn": "I want to go to Japan."
+    },
+    {
+      "id": "h-tomodachi",
+      "prompt": "ともだち",
+      "readingsRomaji": ["tomodachi"],
+      "meaningsEn": ["friend"],
+      "exampleJa": "ともだちと映画を見ました。",
+      "exampleEn": "I watched a movie with a friend."
+    },
+    {
+      "id": "h-kyoushitsu",
+      "prompt": "きょうしつ",
+      "readingsRomaji": ["kyoushitsu", "kyoshitsu"],
+      "meaningsEn": ["classroom"],
+      "exampleJa": "きょうしつは三階にあります。",
+      "exampleEn": "The classroom is on the third floor."
+    },
+    {
+      "id": "h-ie",
+      "prompt": "いえ",
+      "readingsRomaji": ["ie"],
+      "meaningsEn": ["house", "home"],
+      "exampleJa": "いえに帰りましょう。",
+      "exampleEn": "Let's go home."
+    },
+    {
+      "id": "h-denwa",
+      "prompt": "でんわ",
+      "readingsRomaji": ["denwa"],
+      "meaningsEn": ["telephone", "phone call"],
+      "exampleJa": "母にでんわをかけます。",
+      "exampleEn": "I'll call my mother."
+    },
+    {
+      "id": "h-ashita",
+      "prompt": "あした",
+      "readingsRomaji": ["ashita"],
+      "meaningsEn": ["tomorrow"],
+      "exampleJa": "あしたは試験があります。",
+      "exampleEn": "There is a test tomorrow."
+    },
+    {
+      "id": "h-kinou",
+      "prompt": "きのう",
+      "readingsRomaji": ["kinou", "kino"],
+      "meaningsEn": ["yesterday"],
+      "exampleJa": "きのうは雨でした。",
+      "exampleEn": "It was rainy yesterday."
+    },
+    {
+      "id": "h-ima",
+      "prompt": "いま",
+      "readingsRomaji": ["ima"],
+      "meaningsEn": ["now"],
+      "exampleJa": "いま何時ですか。",
+      "exampleEn": "What time is it now?"
+    },
+    {
+      "id": "h-eiga",
+      "prompt": "えいが",
+      "readingsRomaji": ["eiga"],
+      "meaningsEn": ["movie", "film"],
+      "exampleJa": "新しいえいがを見に行きます。",
+      "exampleEn": "I'm going to see a new movie."
+    }
+  ]
+}
